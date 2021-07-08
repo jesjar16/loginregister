@@ -105,4 +105,4 @@ class User(models.Model):
     objects = UserManager()
 
     def __repr__(self):
-        return f"Show: (ID: {self.id}) -> {self.first_name} {self.last_name} by {self.email}"
+        return f"User: (ID: {self.id}) -> {self.first_name} {self.last_name} by {self.email}"
